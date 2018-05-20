@@ -1,0 +1,311 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.lbs-book-search-sec .form-title{
+	text-align:center;
+	font-size:18px;
+	line-height:1.3em;
+	font-weight:bold;
+	padding:0;
+	margin:0 0 20px 0;
+}
+.lbs-book-search-sec .lbs-book-search-form{
+	margin:0;
+}
+.lbs-book-search-sec .lbs-book-search-form div{
+	margin:0;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-row{
+	margin:0 -15px 20px -15px;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-row .form-col6{
+	width:50%;
+	float:left;
+	padding:0 15px;
+	box-sizing:border-box;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-row .form-col12{
+	width:100%;
+	float:left;
+	padding:0 15px;
+	box-sizing:border-box;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-row .form-col6:after,
+.lbs-book-search-sec .lbs-book-search-form .form-row .form-col12:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.lbs-book-search-sec .lbs-book-search-form label{
+	width:92px;
+	float:left;
+	display:block;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-field{
+	overflow:hidden;
+}
+.lbs-book-search-sec .lbs-book-search-form input,
+.lbs-book-search-sec .lbs-book-search-form select{
+	width:100%;
+	box-sizing:border-box;
+	padding:6px 10px;
+	font-size:14px;
+	line-height:1.3em;
+	border:1px solid #ccc;
+}
+.lbs-book-search-sec .lbs-book-search-form .form-submit-btn{
+	text-align:center;
+	padding:8px 15px;
+}
+.lbs-book-search-sec .lbs-book-search-form input[type="submit"]{
+	width:auto;
+	padding:7px 20px;
+	box-shadow:none;
+	background:#0073aa;
+	color:#fff;
+	border:1px solid #0073aa;
+	text-shadow:none;
+	border-radius:3px;
+	transition:all 0.3s ease-out 0s;
+}
+.lbs-book-search-sec .lbs-book-search-form input[type="submit"]:hover{
+	background:#fff;
+	color:#0073aa;
+}
+.lbs-book-search-sec .lbs-book-search-result .book-result-header{
+	font-weight:bold;
+	border-bottom:2px solid #aaa;
+}
+.lbs-book-search-sec .lbs-book-search-result .book-result-item{
+	border-bottom:1px solid #ddd;
+	padding:3px 0;
+}
+.lbs-book-search-sec .lbs-book-search-result ul{
+	list-style-type:none;
+	display:block;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li{
+	float:left;
+	padding:4px 15px;
+	box-sizing:border-box;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_no{
+	width:5%;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_name{
+	width:25%;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_price{
+	width:10%;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_author{
+	width:25%;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_publisher{
+	width:20%;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating{
+	width:15%;
+}
+.single-page-book-info{
+	padding:0;
+	margin:0 0 20px 0;
+	list-style-type:none;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating span{
+	background-size:contain !important;
+	height:22px;
+	display:block;
+}
+.single-page-book-info li{
+	margin-bottom:5px;
+}
+.single-page-book-info li strong{
+	vertical-align:middle;
+	width:75px;
+	float:left;
+	display:block;
+	margin-right:15px;
+	position:relative;
+}
+.single-page-book-info li strong:after{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	content:":";
+}
+.single-page-book-info li .book-info-val{
+	overflow:hidden;
+}
+.single-page-book-info li span{
+	background-size:contain !important;
+	width:100px;
+	height:22px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-0,
+.single-page-book-info li .rating-star-0{
+	background:url(img/star0.png) scroll no-repeat center center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-1,
+.single-page-book-info li .rating-star-1{
+	background:url(img/star1.png) scroll no-repeat center center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-2,
+.single-page-book-info li .rating-star-2{
+	background:url(img/star2.png) scroll no-repeat center center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-3,
+.single-page-book-info li .rating-star-3{
+	background:url(img/star3.png) scroll no-repeat center center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-4,
+.single-page-book-info li .rating-star-4{
+	background:url(img/star4.png) scroll no-repeat center center;
+}
+.lbs-book-search-sec .lbs-book-search-result ul li.b_rating .rating-star-5,
+.single-page-book-info li .rating-star-5{
+	background:url(img/star5.png) scroll no-repeat center center;
+}
+
+
+.lbs-book-search-sec .lbs-book-search-form-sec{
+	position:relative;
+}
+.lbs-book-search-form-sec .lbs-book-loader{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+}
+.lbs-book-search-form-sec .lbs-book-loader{
+    background-image: url("data:image/svg+xml,%3Csvg width='75px' height='75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-default'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(0 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(30 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.08333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(60 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.16666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(90 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.25s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(120 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.3333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(150 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.4166666666666667s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(180 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(210 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5833333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(240 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.6666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(270 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.75s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(300 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.8333333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='%23000000' transform='rotate(330 50 50) translate(0 -30)'%3E %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.9166666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+
+
+.lbs-book-search-sec .pagination-sec{
+	margin-top:30px;
+}
+.lbs-book-search-sec .pagination-sec ul{
+	text-align:center;
+}
+.lbs-book-search-sec .pagination-sec ul li{
+	display:inline-block;
+	margin:0 4px;
+	float:none;
+	padding:0;
+}
+.lbs-book-search-sec .pagination-sec ul li span{
+	display:block;
+	border:1px solid #bbb;
+	padding:2px 9px;
+	cursor:pointer;
+	transition:all 0.3s ease-out 0s;
+}
+.lbs-book-search-sec .pagination-sec ul li.active span,
+.lbs-book-search-sec .pagination-sec ul li span:hover{
+	background:#aaa;
+	color:#333;
+}
+.lbs-book-search-sec .book-price-slider-range-outer{
+	padding:3px 12px;
+}
+.lbs-book-search-sec #book-price-amount{
+	margin-bottom:3px;
+}
+.lbs-book-search-sec .no-book{
+	text-align:center;
+	margin:10px 0;
+	font-weight:bold;
+}
+.lbs-book-search-sec .lbs-book-search-result{
+	margin-top:35px;
+}
+.book-single-desc-sec .book-img{
+	text-align:center;
+	margin-bottom:30px;
+}
+.book-single-desc-sec .book-img img{
+	box-sizing:border-box;
+	border:1px solid #ddd;
+	padding:7px;
+	width:auto;
+	max-width:100%;
+}
+.archive-page-book .page-main-title{
+	font-size:30px;
+	line-height:1.3em;
+	color:#111;
+	padding:0;
+	margin:0 0 30px 0;
+}
+.archive-page-book .book-title{
+	font-size:22px;
+	line-height:1.3em;
+	color:#111;
+	padding:0;
+	margin:0 0 8px 0;
+}
+.archive-page-book .archive-book-item{
+	margin:0 0 30px 0;
+}
+.archive-page-book .archive-book-item:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.archive-page-book .book-img{
+	float:left;
+	margin-right:30px;
+	width:150px;
+}
+.archive-page-book .book-img a{
+	display:block;
+	overflow:hidden;
+}
+.archive-page-book .book-img a img{
+	width:100%;
+	transition:all 0.3s ease-out 0s;
+	margin:0;
+}
+.archive-page-book .book-img a:hover img{	
+	transform:scale(1.1);
+}
+.archive-page-book .book-desc{
+	overflow:hidden;
+}
+.archive-page-book{
+}
+.archive-page-book{
+}
+
+
+
+
+
+

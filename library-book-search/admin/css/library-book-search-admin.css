@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.book-meta-sec label{
+	font-weight:bold;
+	font-size:13px;
+	display:block;
+	margin-bottom:3px;
+}
+.book-meta-sec input,
+.book-meta-sec select{
+	box-sizing:border-box;
+	width:100%;
+}
+.book-meta-sec ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.book-meta-sec ul li:first-child{
+	margin-top:0px;
+}
+.book-meta-sec ul li{
+	margin-top:23px;
+}
+.lbs-admin-screen-sec{
+	margin:20px 0;
+}
+.lbs-admin-screen-sec .lbs-screen-title{
+	font-size:23px;
+	line-height:1.3em;
+	font-weight:400;
+	color:#333;
+}
+.lbs-admin-screen-sec .lbs-admin-screen-body{
+	margin-top:30px;
+	font-size:14px;
+}
+.lbs-admin-screen-sec pre{
+	background:#fff;
+	padding:10px;
+	display:inline-block;
+	min-width:200px;
+}
+.lbs-admin-screen-sec .help-sec-desc{
+	width:40%;
+	float:left;
+}
+.lbs-admin-screen-sec .help-sec-img-sec{
+	margin-left:7%;
+	width:50%;
+	float:left;
+}
+.lbs-admin-screen-sec .help-sec-img-sec img{
+	width:100%;
+}
+.lbs-admin-screen-sec {
+}
+.lbs-admin-screen-sec {
+}
+.lbs-admin-screen-sec {
+}
+.lbs-admin-screen-sec {
+}
+.lbs-admin-screen-sec {
+}
+.lbs-admin-screen-sec {
+}
